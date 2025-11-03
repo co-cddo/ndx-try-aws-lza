@@ -45,3 +45,7 @@ workloadAccounts:
     description: The Perimeter account
     email: ndx-try-provider+gds-ndx-try-aws-perimeter@dsit.gov.uk
     organizationalUnit: Infrastructure
+  - name: InnovationSandboxHub
+    description: The ISB account
+    email: ndx-try-provider+gds-ndx-try-aws-isb-hub@dsit.gov.uk
+    organizationalUnit: Workloads/Prod
