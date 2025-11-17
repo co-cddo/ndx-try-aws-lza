@@ -15,6 +15,25 @@ organizationalUnits:
   - name: Workloads/Dev
   - name: Workloads/Test
   - name: Workloads/Prod
+  - name: InnovationSandbox
+    ignore: true
+  - name: InnovationSandbox/ndx_InnovationSandboxAccountPool
+    ignore: true
+  - name: InnovationSandbox/ndx_InnovationSandboxAccountPool/Active
+    ignore: true
+  - name: InnovationSandbox/ndx_InnovationSandboxAccountPool/Available
+    ignore: true
+  - name: InnovationSandbox/ndx_InnovationSandboxAccountPool/CleanUp
+    ignore: true
+  - name: InnovationSandbox/ndx_InnovationSandboxAccountPool/Entry
+    ignore: true
+  - name: InnovationSandbox/ndx_InnovationSandboxAccountPool/Exit
+    ignore: true
+  - name: InnovationSandbox/ndx_InnovationSandboxAccountPool/Frozen
+    ignore: true
+  - name: InnovationSandbox/ndx_InnovationSandboxAccountPool/Quarantine
+    ignore: true
+
 quarantineNewAccounts:
   enable: true
   scpPolicyName: "{{ AcceleratorPrefix }}-Quarantine-New-Object"
