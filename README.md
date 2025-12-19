@@ -4,6 +4,10 @@ This repo contains the LZA configuration files that are being used for NDX: Try.
 
 ## Updates
 
+### 2025-12-19
+
+- Upgraded LZA Universal Config from [v1.0.0](https://github.com/aws/lza-universal-configuration/releases/tag/v1.0.0) to [v1.1.0](https://github.com/aws/lza-universal-configuration/releases/tag/v1.1.0).
+
 ### 2025-12-15
 
 - Restructured the directory in preparation for [switching from S3 to GitHub](https://aws.amazon.com/blogs/publicsector/moving-from-aws-codecommit-or-amazon-s3-to-external-configuration-repositories-for-landing-zone-accelerator-on-aws/).
